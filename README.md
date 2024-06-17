@@ -7,10 +7,10 @@ https://smileunc.github.io/projects/openfwi/datasets.
 
 An example of the application:
 
-![Background](./images/background.pdf)
+![Background](./images/background.png)
 
 
-## Usage for comditioned velocity map generation
+## Usage for conditioned velocity map generation
 
 Please follow the https://pytorch.org/ to install torch at first.
 
@@ -39,7 +39,7 @@ python generation.py
 ```
 An example output (training without leakage occuring at shallow):
 
-![Generated](./images/generated_velocity_map.pdf)
+![Generated](./images/generated_velocity_map.png)
 
 ## Usage for leakage movement and distribution alignment 
 
@@ -51,7 +51,7 @@ python move_align.py
 
 An example output after move and align leakage:
 
-![MovedAligned](./images/moved_and_aligned_velocity_map.pdf)
+![MovedAligned](./images/moved_and_aligned_velocity_map.png)
 
 ## Comments
 
